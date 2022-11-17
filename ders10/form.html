@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="" enctype="multipart/form-data">
+        <label>Kullanıcı Adı</label>
+        <input type="text" id="ad" name="ad" maxlength="6" placeholder="ad giriniz">
+        <input type="email" placeholder="email gir"  >
+        <input type="number" min="15">yaş
+        <br>
+        <br>
+        Hobiler
+        <input type="checkbox" value="futbol">Futbol
+        <input type="checkbox" value="voleybol">Voleybol
+        <input type="checkbox">basketbol
+        <br>
+        <input type="radio" name="cinsiyet" value="erkek">erkek
+        <input type="radio" name="cinsiyet" value="kadin">kadın
+        <br>
+        <br>
+        <input type="file" name="image">
+
+        <input type="color" name="renk" disabled>renk
+        <br>
+        <input type="range" name="uzak" disabled>uzaklık
+        <br>
+        <input type="date" name="date" value="tarih" id="tarih">tarih
+        <br>
+        <input type="time" name="saat">zaman
+        <br>
+        <select style="margin-top: 40px; width: 100px;" multiple size="3" name="il">
+            <option value="Adana">Adana</option>
+            <option value="Adıyaman">Adıyaman</option>
+            <option value="06">Ankara</option>
+            <option value="06">Ankara</option>
+            <option value="06">Ankara</option>
+        </select>
+        <br>
+        <br>
+        <textarea rows="5" cols="50" ></textarea>
+        <input type="submit" value="kaydet">
+    </form> 
+</body>
+</html>
